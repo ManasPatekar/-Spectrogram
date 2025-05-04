@@ -17,7 +17,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/ManasPatekar/Spectrogram-Detector.git
+git clone https://github.com/ManasPatekar/AudioStegoCrack.git
 cd audiostegocrack
 
 # Create and activate virtual environment (Windows)
