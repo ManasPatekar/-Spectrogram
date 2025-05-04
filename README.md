@@ -17,7 +17,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/audiostegocrack.git
+git clone https://github.com/ManasPatekar/Spectrogram-Detector.git
 cd audiostegocrack
 
 # Create and activate virtual environment (Windows)
@@ -26,3 +26,7 @@ python -m venv venv
 
 # Install dependencies
 pip install -r requirements.txt
+
+#Run Command
+python stegocrack.py -f "your_audio_file.wav" --lsb --spectrogram --metadata --scan -o output/
+
