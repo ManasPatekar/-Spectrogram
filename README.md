@@ -21,12 +21,12 @@ git clone https://github.com/ManasPatekar/AudioStegoCrack.git
 cd audiostegocrack
 
 # Create and activate virtual environment (Windows)
-python -m venv venv
+python3 -m venv venv
 .\venv\Scripts\Activate.ps1  # or .\venv\Scripts\activate.bat
 
 # Install dependencies
 pip install -r requirements.txt
 
 #Run Command
-python stegocrack.py -f "your_audio_file.wav" --lsb --spectrogram --metadata --scan -o output/
+python3 stegocrack.py -f "your_audio_file.wav" --lsb --spectrogram --metadata --scan -o output/
 
