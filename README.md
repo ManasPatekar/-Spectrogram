@@ -18,7 +18,7 @@
 ```bash
 # Clone the repo
 git clone https://github.com/ManasPatekar/AudioStegoCrack.git
-cd audiostegocrack
+cd Audiostegocrack
 
 # Create and activate virtual environment (Windows)
 python3 -m venv venv
